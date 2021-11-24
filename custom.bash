@@ -9,5 +9,7 @@ prop_replace () {
 }
 
 prop_replace 'nifi.web.proxy.host' "${NIFI_WEB_PROXY_HOST}"
+prop_replace 'nifi.cluster.is.node' "${CUSTOM_NIFI_CLUSTER_IS_NODE:-false}"
+prop_replace 'nifi.cluster.node.protocol.port' "${CUSTOM_NIFI_CLUSTER_NODE_PROTOCOL_PORT}"
 
 ../scripts/start.sh
