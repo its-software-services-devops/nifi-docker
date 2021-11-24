@@ -1,5 +1,7 @@
 #!/bin/bash
 
+nifi_props_file=${NIFI_HOME}/conf/nifi.properties
+
 prop_replace () {
   target_file=${3:-${nifi_props_file}}
   echo "Custom replacing [$1] to [$2] target file ${target_file}"
