@@ -5,4 +5,4 @@ RUN ls -lrt /opt/nifi/scripts
 
 RUN echo $(date) > /tmp/date.txt
 
-ENTRYPOINT ["../scripts/custom.bash"]
+ENTRYPOINT ["dummy.bash"]
