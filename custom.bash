@@ -4,3 +4,4 @@ echo "SEUB is great!!!"
 # Do something here!!!
 
 #../scripts/start.sh
+exit 1
